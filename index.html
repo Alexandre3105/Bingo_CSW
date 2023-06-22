@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bingo</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>Bingo Online </h1>
+    </header>
+<main>
+    <section id="Cartelas">
+
+        <div id="HeaderCartelas">
+        <h1>Cartelas</h1>
+        <button onclick="GerarCartelas()">Gerar Cartelas</button>
+        <button onclick="ReiniciarJogo()">Reiniciar</button>
+        <button onclick="Jogar()">Jogar</button>
+
+
+        
+    </div>
+
+
+    <div id="bodyCartela">
+        <div id="mensagemVitoria"></div>
+
+        <div id="cartela">
+            <div id="tabelasContainer"></div>
+
+            
+
+            <table>
+                <p id="nomeJogador"></p>
+                <tr>
+                    <th>B</th>
+                    <th>I</th>
+                    <th>N</th>
+                    <th>G</th>
+                    <th>O</th>
+                </tr>
+                <tr>
+                    <td id="b1" class="elemento"></td>
+                    <td id="i1" class="elemento"></td>
+                    <td id="n1" class="elemento"></td>
+                    <td id="g1" class="elemento"></td>
+                    <td id="o1" class="elemento"></td>
+                </tr>
+                <tr>
+                    <td id="b2" class="elemento"></td>
+                    <td id="i2" class="elemento"></td>
+                    <td id="n2" class="elemento"></td>
+                    <td id="g2" class="elemento"></td>
+                    <td id="o2" class="elemento"></td>
+                </tr>
+                <tr>
+                    <td id="b3" class="elemento"></td>
+                    <td id="i3" class="elemento"></td>
+                    <td id="n3" class="elemento"></td>
+                    <td id="g3" class="elemento"></td>
+                    <td id="o3" class="elemento"></td>
+                </tr>
+                <tr>
+                    <td id="b4" class="elemento"></td>
+                    <td id="i4" class="elemento"></td>
+                    <td id="n4" class="elemento"></td>
+                    <td id="g4" class="elemento"></td>
+                    <td id="o4" class="elemento"></td>
+                </tr>
+                <tr>
+                    <td id="b5" class="elemento"></td>
+                    <td id="i5" class="elemento"></td>
+                    <td id="n5" class="elemento"></td>
+                    <td id="g5" class="elemento"></td>
+                    <td id="o5" class="elemento"></td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+    </section>
+    
+
+    <section id="Numeros">
+       
+        
+        <h1>Numeros</h1>
+        
+    </section>
+
+    
+
+   
+
+
+</main>
+
+<footer>
+    designed by @alexandre_.lopes
+</footer>    
+<script src="index.js"></script>
+</body>
+</html>
